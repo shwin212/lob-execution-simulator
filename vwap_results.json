@@ -1,0 +1,63 @@
+{
+  "strategy": "vwap",
+  "folds": [
+    {
+      "strategy": "trained_volume_profile_vwap",
+      "side": "B",
+      "target_shares": 250,
+      "filled_shares": 250,
+      "fill_rate": 1.0,
+      "child_fills": 12,
+      "execution_vwap_usd": 100.01436,
+      "market_print_vwap_usd": 100.005885,
+      "implementation_shortfall_vs_print_vwap_bps": 0.8475,
+      "arrival_mid_usd": 99.995,
+      "taker_fees_usd": 0.75,
+      "model": "counterfactual_snapshot_no_market_impact",
+      "fold": 1,
+      "warmup_events": 1250,
+      "test_events": 1250,
+      "test_first_ts_ns": 34212500000000,
+      "test_last_ts_ns": 34224990000000
+    },
+    {
+      "strategy": "trained_volume_profile_vwap",
+      "side": "B",
+      "target_shares": 250,
+      "filled_shares": 225,
+      "fill_rate": 0.9,
+      "child_fills": 12,
+      "execution_vwap_usd": 100.030133,
+      "market_print_vwap_usd": 100.021175,
+      "implementation_shortfall_vs_print_vwap_bps": 0.8957,
+      "arrival_mid_usd": 100.02,
+      "taker_fees_usd": 0.675,
+      "model": "counterfactual_snapshot_no_market_impact",
+      "fold": 2,
+      "warmup_events": 2500,
+      "test_events": 1250,
+      "test_first_ts_ns": 34225000000000,
+      "test_last_ts_ns": 34237490000000
+    },
+    {
+      "strategy": "trained_volume_profile_vwap",
+      "side": "B",
+      "target_shares": 250,
+      "filled_shares": 235,
+      "fill_rate": 0.94,
+      "child_fills": 12,
+      "execution_vwap_usd": 100.028426,
+      "market_print_vwap_usd": 100.022774,
+      "implementation_shortfall_vs_print_vwap_bps": 0.565,
+      "arrival_mid_usd": 100.025,
+      "taker_fees_usd": 0.705,
+      "model": "counterfactual_snapshot_no_market_impact",
+      "fold": 3,
+      "warmup_events": 3750,
+      "test_events": 1250,
+      "test_first_ts_ns": 34237500000000,
+      "test_last_ts_ns": 34249990000000
+    }
+  ],
+  "data_note": "Synthetic sample does not validate strategy profitability"
+}

@@ -1,0 +1,60 @@
+{
+  "strategy": "maker",
+  "folds": [
+    {
+      "fills": 51,
+      "filled_shares": 936,
+      "posted_shares": 3454,
+      "fill_rate": 0.27099,
+      "inventory_shares": -90,
+      "cash_usd": 9010.396,
+      "mtm_pnl_usd": 8.596,
+      "realized_spread_bps": 1.8801,
+      "adverse_selection_bps": 0.0143,
+      "spread_horizon_ms": 250.0,
+      "spread_eligible_shares": 876,
+      "fold": 1,
+      "warmup_events": 1250,
+      "test_events": 1250,
+      "test_first_ts_ns": 34212500000000,
+      "test_last_ts_ns": 34224990000000
+    },
+    {
+      "fills": 54,
+      "filled_shares": 976,
+      "posted_shares": 3420,
+      "fill_rate": 0.28538,
+      "inventory_shares": -12,
+      "cash_usd": 1211.166,
+      "mtm_pnl_usd": 10.866,
+      "realized_spread_bps": 1.9668,
+      "adverse_selection_bps": -0.0302,
+      "spread_horizon_ms": 250.0,
+      "spread_eligible_shares": 976,
+      "fold": 2,
+      "warmup_events": 2500,
+      "test_events": 1250,
+      "test_first_ts_ns": 34225000000000,
+      "test_last_ts_ns": 34237490000000
+    },
+    {
+      "fills": 41,
+      "filled_shares": 820,
+      "posted_shares": 3644,
+      "fill_rate": 0.225027,
+      "inventory_shares": -52,
+      "cash_usd": 5209.27,
+      "mtm_pnl_usd": 7.45,
+      "realized_spread_bps": 2.1032,
+      "adverse_selection_bps": -0.1292,
+      "spread_horizon_ms": 250.0,
+      "spread_eligible_shares": 820,
+      "fold": 3,
+      "warmup_events": 3750,
+      "test_events": 1250,
+      "test_first_ts_ns": 34237500000000,
+      "test_last_ts_ns": 34249990000000
+    }
+  ],
+  "data_note": "Synthetic sample does not validate strategy profitability"
+}
